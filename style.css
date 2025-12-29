@@ -1,18 +1,26 @@
 body{
   font-family: sans-serif;
   margin: 0;
+  font-family:sans-serif;
 
 }
 .fold{
     width: 100%;
-    
-
 }
+
+
 header{
   display: flex;
   justify-content: left;
+  color: white;
+  background-color: black;
     
 }
 h1{
     padding: 20px;
 }
+.weq{
+    background-color: #C0C0C0;
+    border-radius: 5%;
+}
+
