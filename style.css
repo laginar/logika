@@ -11,9 +11,10 @@ body{
 
 header{
   display: flex;
-  
+  padding: 50px ;
   color: white;
   background-color: black;
+  width: 100%;
     
 }
 h1{
@@ -23,3 +24,27 @@ h1{
   background-color:#000000;
   color: 	#FFFFFF;
 }
+.buy{
+    background-image: linear-gradient(45deg, #EA001B, #BA0D97);
+    box-shadow:0 0 5px 5px #3A0423;
+    display:flex;
+    padding: 25px;
+    flex-wrap: wrap;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    width: 90px;
+    border-radius:15px ;
+    
+}
+.buy:hover{
+    background-image: linear-gradient(45deg, #FF0F0F, #3F0322);
+    border: 2px solid #c67dff;
+    color: white;
+    
+}
+
+.buy:active{
+    background-color: #f0f0f0 ;
+    border: 2px solid #ffffff;
+    color: #333;
