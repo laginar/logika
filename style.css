@@ -2,7 +2,6 @@ body{
   font-family: sans-serif;
   margin: 0;
   background-color: black;
-  
 
 }
 .vid{
@@ -20,10 +19,10 @@ header{
   padding: 50px ;
   color: #ffffff;
   width:100%;
+ 
 }
 a{
     text-decoration: none;
-    color:white;
 }
 
 h1{
@@ -107,7 +106,10 @@ h1{
     padding: 15px;
     color: white;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-
+}body{
+  font-family: sans-serif;
+  margin: 0;
+  background-color: black;
 
 }
 .fold{
@@ -115,12 +117,14 @@ h1{
 }
 
 
-
+header{
+  display: flex;
+  padding: 50px ;
+  color: #ffffff;
+  width:100%;
  
 }
-a{
-    text-decoration: none;
-}
+
 
 h1{
     padding: 20px;
@@ -170,7 +174,7 @@ h1{
     border: 2px solid #c67dff;
     color: white;
 }
-.buy:active{
+.buy2:active{
     background-color: #f0f0f0 ;
     border: 2px solid #ffffff;
     color: #333;
@@ -246,30 +250,28 @@ h1{
     color:white;
     
 }
+a{
+    color:white;
+}
 .s25u:hover{
-    background-image: linear-gradient(45deg, #FF0F0F, #3F0322);
-    border: 2px solid #c67dff;
-    color: white;
+    background-image: linear-gradient(45deg, #282828, #3d3d3e);
+
 }
 .s25fe:hover{
-    background-image: linear-gradient(45deg, #FF0F0F, #3F0322);
-    border: 2px solid #c67dff;
-    color: white;
+    background-image: linear-gradient(45deg, #282828, #3d3d3e);
+
 }
 .s25:hover{
-    background-image: linear-gradient(45deg, #FF0F0F, #3F0322);
-    border: 2px solid #c67dff;
-    color: white;
+    background-image: linear-gradient(45deg, #282828,#3d3d3e);
+
 }
 .s25p:hover{
-    background-image: linear-gradient(45deg, #FF0F0F, #3F0322);
-    border: 2px solid #c67dff;
-    color: white;
+    background-image: linear-gradient(45deg, #282828, #3d3d3e);
+
 }
 .flip7:hover{
-    background-image: linear-gradient(45deg, #FF0F0F, #3F0322);
-    border: 2px solid #c67dff;
-    color: white;
+    background-image: linear-gradient(45deg, #282828, #3d3d3e);
+
 }
 .s25e:hover{
     background-color: #1b1b1b;
